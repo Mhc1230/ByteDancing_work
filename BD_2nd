@@ -1,0 +1,16 @@
+@interface Student:NSObject
+  @public
+  NSString *_name;
+  NSString *_major;
+  int age;
+ 
+ -(void) studyWith:(float)time;
+ 
+@end
+
+@implementation
+-(void) studyWith:(float)time{
+      NSLog(@"%@ has studied for %f min.",_name,time);
+      }
+ 
+@end
